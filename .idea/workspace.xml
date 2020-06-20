@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a87722e3-d8b2-4e30-a1ed-8a256e3e5faf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../graduate_design.rar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="205" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="graduate_design@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="graduate_design@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="graduate_design@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="graduate_design: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="graduate_design@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="graduate_design: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="commodity_sku_info: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1a3wbPmrfFJwLE7gXa1zG8fK7Np" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice-class-manage-demo" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="xyz.ymtao.gd" />
+      <recent name="xyz.ymtao.gd.order_pay" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\graduate_design\gd-commodity-web\src\main\resources\static\indexs\img" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-commodity-web\src\main\resources\static\img\brand" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-order_pay\src\main\resources\static\img" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-order_pay\src\main\resources\static\css" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-order_pay\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.ymtao.gd.common.util" />
+      <recent name="xyz.ymtao.gd.user.util" />
+      <recent name="xyz.ymtao.gd.web.util" />
+      <recent name="xyz.ymtao.gd.user.controller" />
+      <recent name="xyz.ymtao.gd.annotation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\graduate_design\gd-commodity-web\src\main\resources\templates\error" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-order_pay\src\main\resources\static\css" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-order_pay\src\main\resources\templates" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-order_pay\src\main\resources" />
+      <recent name="D:\IdeaProjects\graduate_design\gd-commodity-web\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GdCommodityServiceApplication">
+    <configuration name="GdCommodityServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gd-commodity-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ymtao.gd.commodity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.ymtao.gd.commodity" />
+      <option name="MAIN_CLASS_NAME" value="xyz.ymtao.gd.commodity.GdCommodityServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdCommodityServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gd-commodity-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ymtao.gd.commodity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.ymtao.gd.commodity" />
+      <option name="MAIN_CLASS_NAME" value="xyz.ymtao.gd.commodity.GdCommodityServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdCommodityWebApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gd-commodity-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ymtao.gd.commodity.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.ymtao.gd.commodity.web" />
+      <option name="MAIN_CLASS_NAME" value="xyz.ymtao.gd.commodity.web.GdCommodityWebApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdCommodityWebApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gd-commodity-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ymtao.gd.commodity.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.ymtao.gd.commodity.web" />
+      <option name="MAIN_CLASS_NAME" value="xyz.ymtao.gd.commodity.web.GdCommodityWebApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="gd-common-util" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="gd-common-util" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.GdApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdCommodityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-commodity-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.GdCommodityServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdCommodityWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-commodity-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.GdCommodityWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdCommonUtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-common-util" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.common.util.GdCommonUtilApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdOrderPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-order_pay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.GdOrderPayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gdparent.GdParentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdServiceUtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-service-util" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.service.util.GdServiceUtilApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.GdUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GdUserWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gd-user-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ymtao.gd.GdUserWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GdCommodityServiceApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.GdCommodityServiceApplicationTests" />
+        <item itemvalue="JUnit.GdCommodityWebApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.GdCommodityWebApplicationTests.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a87722e3-d8b2-4e30-a1ed-8a256e3e5faf" name="Default Changelist" comment="" />
+      <created>1585977655612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585977655612</updated>
+      <workItem from="1585977660137" duration="1058000" />
+      <workItem from="1585978780413" duration="145000" />
+      <workItem from="1585978964630" duration="1422000" />
+      <workItem from="1585980404395" duration="8143000" />
+      <workItem from="1585992101522" duration="13360000" />
+      <workItem from="1586031084914" duration="4955000" />
+      <workItem from="1586086029378" duration="18115000" />
+      <workItem from="1586111949761" duration="3993000" />
+      <workItem from="1586158375612" duration="12483000" />
+      <workItem from="1586180325225" duration="3758000" />
+      <workItem from="1586195427254" duration="6910000" />
+      <workItem from="1586259668204" duration="12880000" />
+      <workItem from="1586283412683" duration="4936000" />
+      <workItem from="1586362173318" duration="14416000" />
+      <workItem from="1586433977892" duration="49445000" />
+      <workItem from="1586599069034" duration="61230000" />
+      <workItem from="1587064372366" duration="62645000" />
+      <workItem from="1587366911492" duration="91053000" />
+      <workItem from="1587881342574" duration="13037000" />
+      <workItem from="1587915781934" duration="18627000" />
+      <workItem from="1588058713789" duration="69432000" />
+      <workItem from="1588200746615" duration="781000" />
+      <workItem from="1588230524216" duration="8648000" />
+      <workItem from="1588395823633" duration="638000" />
+      <workItem from="1588479012966" duration="8019000" />
+      <workItem from="1588545594809" duration="96000" />
+      <workItem from="1588944031882" duration="13359000" />
+      <workItem from="1589322660985" duration="16315000" />
+      <workItem from="1589588640374" duration="4504000" />
+      <workItem from="1589798109495" duration="1202000" />
+      <workItem from="1589856947784" duration="5675000" />
+      <workItem from="1591365093589" duration="3083000" />
+      <workItem from="1591370730420" duration="10613000" />
+      <workItem from="1592145563179" duration="3330000" />
+      <workItem from="1592225464711" duration="665000" />
+      <workItem from="1592226463720" duration="887000" />
+    </task>
+    <task id="LOCAL-00001" summary="初次提交到git仓库">
+      <created>1592148901121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592148901121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交到git仓库" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交到git仓库" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1592226990254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592226990254" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1589858022851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589858022851" />
+    <state x="516" y="0" width="814" height="458" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586161333810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="0" width="814" height="458" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586161333810" />
+    <state x="404" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588137038641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1588137038641" />
+    <state x="1018" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1589333058768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1018" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589333058768" />
+    <state x="557" y="249" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588179880770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="557" y="249" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1588179880770" />
+    <state x="933" y="151" width="479" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589325196569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="933" y="151" width="479" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589325196569" />
+    <state x="517" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587265252124">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="517" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1587265252124" />
+    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586181165882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586181165882" />
+    <state x="636" y="52" width="538" height="414" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588182806375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="636" y="52" width="538" height="414" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588182806375" />
+    <state x="599" y="180" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585990893516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="180" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585990893516" />
+    <state x="385" y="12" key="CommitChangelistDialog2" timestamp="1592148880248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="385" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592148880248" />
+    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1586178937581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1586178937581" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1592226777626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1592226777626" />
+    <state x="783" y="15" width="438" height="504" key="FileChooserDialogImpl" timestamp="1592227395868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="783" y="15" width="438" height="504" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592227395868" />
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="269" key="GridCell.Tab.1.bottom" timestamp="1591804140840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591804140840" />
+    <state width="1493" height="269" key="GridCell.Tab.1.center" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="269" key="GridCell.Tab.1.left" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="269" key="GridCell.Tab.1.right" timestamp="1591804140839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591804140839" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1588539993367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588539993367" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1588539993367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588539993367" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1588539993367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588539993367" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1588539993367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588539993367" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1587269139148">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587269139148" />
+    <state x="662" y="76" width="720" height="368" key="NewModule_or_Project.wizard" timestamp="1586269263716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="662" y="76" width="720" height="368" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1586269263716" />
+    <state x="497" y="117" width="996" height="707" key="SettingsEditor" timestamp="1589877940096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="497" y="117" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589877940096" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1592227181697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592227181697" />
+    <state x="786" y="134" width="429" height="331" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1586163221024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="786" y="134" width="429" height="331" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1586163221024" />
+    <state x="478" y="60" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587321311571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="60" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1587321311571" />
+    <state x="663" y="158" key="com.intellij.ide.util.TipDialog" timestamp="1592226543451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="663" y="158" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592226543451" />
+    <state x="469" y="149" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1592146238444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="469" y="149" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1592146238444" />
+    <state x="560" y="214" key="git4idea.merge.GitPullDialog" timestamp="1592226051758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1592226051758" />
+    <state x="356" y="29" width="1180" height="564" key="new project wizard" timestamp="1589858502020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="29" width="1180" height="564" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589858502020" />
+    <state x="511" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1587260979792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1587260979792" />
+    <state x="798" y="-46" width="672" height="676" key="search.everywhere.popup" timestamp="1589332067304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="798" y="-46" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589332067304" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gd-user-service/src/main/java/xyz/ymtao/gd/user/controller/UserController.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/graduate_design$GdCommodityWebApplication.ic" NAME="GdCommodityWebApplication Coverage Results" MODIFIED="1587668289782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

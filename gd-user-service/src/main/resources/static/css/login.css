@@ -1,0 +1,869 @@
+
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 0px;
+    font-family: "微软雅黑", "宋体", Helmet, Freesans, sans-serif;
+}
+body{
+    height: 100%;
+}
+
+li{
+    float: left;
+}
+
+a:visited{
+    color: #000;
+}
+
+a{
+    color:#000;
+}
+
+.active a{
+    color: #FFF;
+    background: #0D452C;
+}
+
+textarea{
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover{
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    position: relative;
+    z-index: 99;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1500px;
+    height: 50px;
+    margin: 0 auto;
+    background: #8ea591;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+.navbar {
+    width: 1500px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+.navbar>li{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+.container > .navbar > li {
+    width: 276px;
+    float: left;
+    line-height: 50px;
+    border-right: 1px solid #FFF;
+}
+
+.hrefLogin {
+    width: 95px;
+    float: left;
+}
+
+.iLogin {
+    width: 96px;
+    float: left;
+}
+
+.iLogin:hover {
+    cursor: pointer;
+}
+
+.container > .navbar > li a {
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+}
+
+.searchPanel > span:hover {
+    cursor: pointer;
+}
+
+#searchform:hover {
+    cursor: text;
+}
+
+.dBtn{
+    background: url(../images/close.png) no-repeat center;
+    width: 30px;
+    height: 20px;
+    border: 0;
+    position:relative;
+    top:-25px;
+    outline:none;
+    display:inline-block
+}
+.dBtn:hover{
+    cursor:pointer;
+}
+
+/*End-Nav*/
+
+div.banner {
+    background: url("../images/banner.jpg") no-repeat 0px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 850px;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+div.content {
+    width: 1200px;
+    min-height: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.content > h3 {
+    display: inline-block;
+}
+
+ul.slidefood {
+    width: 1200px;
+    overflow-x: hidden;
+}
+
+ul.slidefood > li {
+    width: 290px;
+    margin: 0 5px;
+}
+
+li .title-backround {
+    color: #FFF;
+}
+
+.title-backround h3 {
+    font-size: 26px;
+    color: #F65A5B;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.title-backround p {
+    font-weight: 600;
+    line-height: 150%;
+    padding: 0 10px;
+}
+
+.title-backround {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, .5);
+    height: 190px;
+    overflow: hidden;
+}
+
+.readMorebtn:hover {
+    border-radius: 5px;
+    animation: fadeInMore 0.5s;
+    -moz-animation: fadeInMore 0.5s;
+    -webkit-animation: fadeInMore 0.5s;
+    -o-animation: fadeInMore 0.5s;
+    animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+}
+
+.readMorebtn {
+    animation: fadeOutMore 0.5s;
+}
+
+.back-process {
+    height: 4px;
+    width: 100%;
+    background: #FFF;
+    position: relative;
+    top: -50px;
+    z-index: 999;
+}
+
+.back-process .process {
+    background-color: #5bc0de;
+}
+
+/*FoodNav*/
+
+.FoodClassify {
+    position: relative;
+    top: 140px;
+    z-index: 2;
+    height: 290px;
+    width: 100%;
+}
+
+.ClassifyContainer {
+    width: 1200px;
+    height: 290px;
+    margin: 0 auto;
+}
+
+.ClassifyContainer > ul > li {
+    padding: 35px;
+    height: 220px;
+    width: 270px;
+    margin: 0 30px;
+    background: rgba(255, 255, 255, 0.54);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f65a5b;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.icon img {
+    padding: 17px 0 0 0;
+    position: relative;
+    z-index: 100;
+    transition: all 0.3s ease 0s;
+}
+
+.className {
+    text-align: center;
+    margin: 10px 0;
+    font-family: "sans-serif";
+    color: #FFF;
+}
+
+.classContent {
+    line-height: 150%;
+    color: #666;
+}
+
+/*FoodClassify*/
+.FoodContent {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.FoodContent > .topfloor1 > div {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+h2.floor-title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+p.floor-des {
+    color: #666;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+/*FoodExample*/
+
+/**/
+/**/
+/**/
+/**/
+/*Menu*/
+
+.FoodList {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.FoodList>ul{
+    width:9999px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.FoodItem {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    width: 350px;
+    color: #666;
+    margin: 0 10px;
+}
+
+.FoodItem img {
+    width: 300px;
+}
+
+.FoodItemContent {
+    text-align: center;
+}
+
+.FoodItemContent > h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.FoodItemContent > div {
+    width: 270px;
+    display: inline-block;
+}
+
+.FoodItemContent > div > h1:first-of-type {
+    width: 150px;
+    text-align: center;
+    float: left;
+    display: inline-block;
+    margin: 30px auto;
+    color: #5A9522;
+    padding: 12px 0;
+    font-size: 22px;
+}
+
+.FoodItemContent > div > h1:last-of-type {
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    background: rgba(246, 90, 91, 0.66);
+    margin: 30px auto;
+    border-radius: 5px;
+    float: right;
+    display: inline-block;
+}
+
+.FoodItemContent > div > h1:last-of-type > a {
+    color: #FFF;
+    display: block;
+    padding: 12px 0;
+}
+
+.pageChange {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+}
+
+ul.page {
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+ul.page > li {
+    width: 48px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #eee;
+}
+
+ul.page > li a {
+    background-color: #f5f5f5;
+    display: block;
+    color: #777;
+    font-weight: bold;
+}
+
+ul.page > li a:hover {
+    color: #000;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/*Detail*/
+.FoodInfo {
+    width: 1200px;
+    margin: 30px auto;
+    height: 400px;
+}
+
+.infoLeft {
+    height: 400px;
+    width: 840px;
+    float: left;
+}
+
+.LikeIt {
+    margin: 10px 0;
+}
+
+.LikeIt > a {
+    color: #06C;
+}
+
+.LikeIt > a:last-of-type:hover {
+    text-decoration: none;
+}
+
+.LikeIt > a:visited {
+    color: #06c;
+}
+
+
+
+.Comment {
+    width: 100%;
+}
+
+.CommentContainer {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
+.CommentContainer > ul {
+    margin-top: 20px;
+}
+
+.CommentContainer > ul > li {
+    margin-right: 20px;
+}
+
+.sm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.pull-left {
+    padding-right: 10px;
+    float: left !important;
+}
+
+.comment-date {
+    color: #cccccc;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.submitbtn:hover {
+    cursor: pointer;
+}
+
+/**/
+/**/
+/*login*/
+/**/
+/**/
+.Loginbanner {
+    width: 100%;
+    z-index: 1;
+}
+
+.LoginContainer {
+    margin: 0 auto;
+    position: relative;
+}
+
+.LoginPanel {
+    /*background-color: #FF4081;*/
+    background-color: #FFF;
+    width: 340px;
+    height: 230px;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    border-radius: 10px;
+    padding: 45px 20px;
+}
+
+.RegBtn:hover,
+.LoginBtn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #FF4081;
+}
+
+.RegPanel {
+    background-color: #FFF;
+    width: 340px;
+    height: 450px;
+    z-index: 99;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    border-radius: 10px;
+    padding: 45px 20px;
+}
+
+.form-input {
+    height: 70px;
+}
+
+.form-control {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+    height: 35px;
+    background: none;
+    border: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #777;
+    color: #8EA591;
+    outline: none;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid #8ea591;
+    padding-bottom: 4px;
+}
+
+.input-lable {
+    font-family: Arial;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: -35px;
+}
+
+.floating-btn {
+    background: #0D452C;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 32px;
+    border: none;
+    position: absolute;
+    right: -30px;
+    bottom: 105px;
+    cursor: pointer;
+}
+
+.floating-btn:hover {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3) inset, 0 3px 6px rgba(0, 0, 0, 0.16), 0 5px 11px rgba(0, 0, 0, 0.23);
+}
+
+.floating-btn:hover .icon-arrow {
+    -ms-transform: rotate(45deg) scale(1.2);
+    -webkit-transform: rotate(45deg) scale(1.2);
+    transform: rotate(45deg) scale(1.2);
+}
+
+.floating-btn:focus, .floating-btn:active {
+    outline: none;
+}
+
+.icon-arrow {
+    top: 21px;
+    left: 21px;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
+    display: block;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.icon-arrow:after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    background: #fff;
+    top: 4px;
+    left: -1px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.validate-Auth-Login,
+.validate-Auth-Reg {
+    color: #FF4081;
+    float: right;
+}
+
+.validate-Login,
+.validate-Reg {
+    margin: 0 0 10px 0;
+    height: 20px;
+}
+
+/*
+Order
+*/
+.Order {
+    width: 100%;
+    margin: 50px 0;
+    margin-top: 20px;
+}
+
+.OrderContainer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.caption {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.caption > ul {
+    width: 1060px;
+    font-weight: bold;
+    color: #777;
+}
+
+.caption > ul > li {
+    width: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.caption > ul > li:first-of-type {
+    width: 100px;
+    margin-right: 60px;
+}
+
+.caption > ul > li:nth-of-type(2) {
+    width: 280px;
+    margin-right: 70px;
+}
+
+.caption > ul > li:last-of-type {
+    margin-right: 0;
+}
+
+.OrderList {
+    height: 100px;
+}
+
+.OrderList>a{
+    display: inline-block;
+}
+
+.OrderList>a>img{
+    width:100px;
+    border-radius: 5px;
+}
+
+.orderDes>a{
+    font-weight: bold
+}
+
+.FPrice:before,.PayMoney:before{
+    content:"¥";
+}
+
+.OrderList > .pull-left {
+    margin-right: 50px;
+}
+
+.orderCount {
+    margin-right: 50px;
+    width: 80px;
+}
+
+.OrderList > ul {
+    height: 100px;
+    line-height: 100px;
+    width: 900px;
+    display: inline-block;
+}
+
+.OrderList > ul > li:first-of-type {
+    text-align: left;
+    line-height: normal;
+    margin-right: 50px;
+    width: 300px;
+}
+
+.priceSpan {
+    color: #5A9522;
+    margin-right: 50px;
+    font-size: 20px;
+    width: 80px;
+}
+
+.OrderList > ul > li {
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+
+.OrderList>div{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+
+.orderDes > a:hover {
+    text-decoration: underline;
+    color: #f65a5b;
+}
+
+.orderDes > a > p {
+    width: 260px;
+    padding: 10px 0 0 0;
+    line-height: 150%;
+    overflow: hidden;
+    font-weight: normal;font-size: 12px;
+}
+
+.orderSum {
+    margin-right: 50px;
+    font-size: 30px;
+    width: 80px;
+}
+
+
+.oderDetail  {
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #5A9522;
+    color: #FFF;
+}
+
+.oderDetail:hover {
+    cursor: pointer;
+}
+
+.liPay > ul {
+    height: 100px;
+}
+
+.liPay > ul > li {
+    line-height: 30px;
+}
+
+.deleteOrderBtn {
+    display: block;
+    color: #f50;
+    font-size: 14px;
+}
+
+.deleteOrderBtn {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    line-height: 50px;
+}
+
+.deleteOrderBtn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+.btnToOrder {
+    width: 550px;
+    padding: 20px;
+    height: 60px;
+    display: none;
+    background-color: #5A9522;
+    position: relative;
+    left: 300px;
+    clear: both;
+    top: -100px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+
+.btnToOrder > p {
+    float: left;
+    width: 50%;
+    line-height: 30px;
+}
+
+.SendState:before{
+    content:"发货信息: "
+}
+
+.ReceviceAdd:before{
+    content:"收件地址: ";
+}
+.Recevicer:before{
+    content:"收件人:　 ";
+}
+
+.ReceviceTel:before{
+    content:"联系电话: ";
+}
+
+.SignOut {
+    clear: both;
+    height: 30px;
+    width: 40px;
+    padding: 10px 5px;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    border-radius: 0;
+    overflow: hidden;
+    background: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    color: #9c9c9c;
+}
+
+.Up_Back {
+    background: Transparent;
+    height: 30px;
+}
+.getSms{
+	width:100px;
+	height:40px;
+	text-align:center;
+	background:#fff;
+	color: #06c;
+	border:none;
+	outline:none;
+}
+.getSms:hover{
+    cursor: pointer;
+}
+

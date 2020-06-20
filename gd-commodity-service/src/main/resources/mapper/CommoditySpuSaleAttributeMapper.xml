@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.ymtao.gd.commodity.mapper.CommoditySpuSaleAttributeMapper">
+
+    <select id="selectSpuSaleAttrListBySku" resultMap="selectSpuSaleAttrListCheckBySkuMap">
+        SELECT
+            sa.id as sa_id , sav.id as sav_id , sa.*,sav.*, if(ssav.sku_id,1,0) as isChecked
+        FROM
+            commodity_spu_sale_attribute sa
+        INNER JOIN commodity_spu_sale_attribute_value sav ON sa.commodity_id = sav.commodity_id
+        AND sa.sale_attr_id = sav.sale_attr_id
+        AND sa.commodity_id = #{commodityId}
+        LEFT JOIN commodity_sku_sale_attribute_value ssav ON sav.id = ssav.sale_attr_value_id
+        AND ssav.sku_id = #{skuId}
+
+    </select>
+
+    <resultMap id="selectSpuSaleAttrListCheckBySkuMap" type="xyz.ymtao.gd.entity.CommoditySpuSaleAttribute" autoMapping="true">
+        <result column="sa_id" property="id"></result>
+        <collection property="spuSaleAttrValueList" ofType="xyz.ymtao.gd.entity.CommoditySpuSaleAttributeValue" autoMapping="true">
+            <result column="sav_id" property="id"></result>
+        </collection>
+    </resultMap>
+
+</mapper>

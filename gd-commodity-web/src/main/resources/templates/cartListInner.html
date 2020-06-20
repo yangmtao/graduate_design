@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="One_ShopCon">
+        <h4 style="color: #c7254e" th:if="${cartSize} eq 0">购物车还是空的，快去选购吧！</h4>
+        <ul>
+            <li  th:each="cartInfo:${cartList}">
+                <div></div>
+
+                <div>
+                    <ol>
+                        <li><input type="checkbox"   class="check"  th:value="${cartInfo.commoditySkuId}"  onchange="checkSku(this)" th:checked="(${cartInfo.isChecked}==1)?'true':'false'" /></li>
+                        <li>
+                            <dt><img  th:src="${cartInfo.commodityPicture}" alt=""></dt>
+                            <dd  th:onclick="toItem([[${cartInfo.commoditySkuId}]])">
+                                <p>
+                                    <span th:text="${cartInfo.commodityName}" >TCL 55A950C 55英寸32核</span>
+                                </p>
+                                <p><span th:text="${cartInfo.commoditySaleAttr}" >商品销售属性值</span> </p>
+                            </dd>
+                        </li>
+                        <li>
+                            <p class="dj" th:text="'￥'+${cartInfo.price}" >4599.00</p>
+                        </li>
+                        <li>
+                            <p>
+                                <span th:class="${cartInfo.id}">-</span>
+                                <span th:text="${cartInfo.quantity}">5</span>
+                                <span  th:class="${cartInfo.id}">+</span>
+                            </p>
+                        </li>
+                        <li style="font-weight:bold"><p class="zj" th:text="'￥'+${cartInfo.totalPrice}"  >￥22995.00</p></li>
+                        <li>
+                            <a th:href="'/deleteCart/'+${cartInfo.commoditySkuId}"><p>删除</p></a>
+                        </li>
+                    </ol>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="One_ShopFootBuy fix1">
+        <div>
+            <ul>
+                <li th:text="'您的购物车共计 '+${cartSize}+' 样商品'"></li>
+                <li>&nbsp;&nbsp;</li>
+            </ul>
+        </div>
+        <div>
+            <font style="color:#e64346;font-weight:bold;" class="sumNum"> </font>&nbsp;
+
+            <ul>
+                <li><img src="img/buyNumleft.png" alt=""></li>
+                <li><img src="img/buyNumright.png" alt=""></li>
+            </ul>
+        </div>
+        <div>
+            <ol>
+                <li>总价:<span style="color:#e64346;font-weight:bold;font-size:16px;" class="fnt" th:text="${totalAmount}">￥0.00</span>  </li>
+
+            </ol>
+        </div>
+        <div><button  onclick="toTrade()" type="button">去结算</button></div>
+
+    </div>
+    <input type="hidden" th:value="${cartSize}" id="cartSize"/>
+    <input type="hidden" th:value="${totalAmount}" id="totalAmount"/>
+</body>
+</html>

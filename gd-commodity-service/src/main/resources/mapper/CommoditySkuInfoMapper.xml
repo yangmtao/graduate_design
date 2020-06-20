@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.ymtao.gd.commodity.mapper.CommoditySkuInfoMapper">
+
+    <select id="selectSkuSaleAttrValueListBySpu" resultMap="selectSkuSaleAttrValueListBySpuMap">
+        SELECT
+            si.*,ssav.*,si.id as si_id ,ssav.id as ssav_id
+        FROM
+            commodity_sku_info si,
+            commodity_sku_sale_attribute_value ssav
+        WHERE
+            si.commodity_id = #{commodityId}
+        AND si.id = ssav.sku_id
+    </select>
+
+    <resultMap id="selectSkuSaleAttrValueListBySpuMap" type="xyz.ymtao.gd.entity.CommoditySkuInfo" autoMapping="true">
+        <result column="si_id" property="id"></result>
+        <collection property="skuSaleAttrValueList" ofType="xyz.ymtao.gd.entity.CommoditySkuSaleAttributeValue" autoMapping="true">
+            <result column="ssav_id" property="id"></result>
+        </collection>
+    </resultMap>
+
+</mapper>

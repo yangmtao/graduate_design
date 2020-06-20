@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gd-api" />
+        <module name="gd-order_pay" />
+        <module name="gd-commodity-service" />
+        <module name="gd-commodity-web" />
+        <module name="gd-common-util" />
+        <module name="gd-service-util" />
+        <module name="gd-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gd-api" target="1.8" />
+      <module name="gd-commodity-service" target="1.8" />
+      <module name="gd-commodity-web" target="1.8" />
+      <module name="gd-common-util" target="1.8" />
+      <module name="gd-order_pay" target="1.8" />
+      <module name="gd-parent" target="1.8" />
+      <module name="gd-service-util" target="1.8" />
+      <module name="gd-user-service" target="1.8" />
+      <module name="gd-user-web" target="1.8" />
+      <module name="gd-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gd-api" options="-parameters" />
+      <module name="gd-commodity-service" options="-parameters" />
+      <module name="gd-commodity-web" options="-parameters" />
+      <module name="gd-common-util" options="-parameters" />
+      <module name="gd-order_pay" options="-parameters" />
+      <module name="gd-parent" options="" />
+      <module name="gd-service-util" options="-parameters" />
+      <module name="gd-user-service" options="-parameters" />
+      <module name="gd-user-web" options="-parameters" />
+      <module name="gd-web-util" options="-parameters" />
+    </option>
+  </component>
+</project>

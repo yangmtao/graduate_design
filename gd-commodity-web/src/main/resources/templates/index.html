@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="个人开发学习测试网站，非实际运行电商网站">
+  <meta name="keyword" content="个人学习、毕业设计">
+  <title>渔具阁</title>
+  <link rel="stylesheet" href="/indexs/css/swiper-3.4.2.min.css">
+  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="/indexs/css/GL.css">
+  <style>
+    .index-sku{
+      border: none;
+      margin-top: 80px;
+    }
+    .sku-item{
+      border: none;
+    }
+    .sku-chooseed{
+      border:1px #6C9BBD solid;
+    }
+     .search-btn{
+       cursor: pointer;
+     }
+    .brand-item{
+      height: 100px;
+    }
+    .lunbo{
+      width: 100%;
+      height:100%;
+    }
+    .sortNav{
+      width: 193px;
+      height: 136px;
+    }
+  </style>
+  <script src="/indexs/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="/indexs/js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="/indexs/js/swiper-3.4.2.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <header>
+    <!--头部-->
+    <div class="header_head">
+      <div class="header_head_box">
+        <a href="#" class="img"><img src="/img/yjg_logo.png"  style="width: 150px;height: 56px;"/></a>
+        <ul>
+          <li>
+            <a th:if="${username} eq null" href="http://123.56.175.117:8080/user/login">你好，请登录</a>
+            <a th:if="${username} ne null" href="http://123.56.175.117:8080/user/center" th:text="'你好，'+${username}"></a>
+          </li>
+          <span>|</span>
+          <li>
+            <a href="http://123.56.175.117:8080/user/order/all">我的订单</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+    <!--搜索导航-->
+    <div class="header_sous">
+
+      <div class="header_form">
+        <input id="searchText" type="text" placeholder="搜索商品" />
+        <a><img class="search-btn" src="/indexs/img/img_09.png" onclick="search()"/></a>
+      </div>
+      <div class="header_ico">
+        <div class="header_gw">
+          <img src="/indexs/img/img_15.png" />
+          <span><a href="/cartList">我的购物车</a></span>
+          <span>0</span>
+        </div>
+        <div class="header_ko">
+          <p>购物车中还没有商品，赶紧选购吧！</p>
+        </div>
+      </div>
+      <div class="header_form_nav">
+        <ul>
+          <li>
+            <h6 class="aaaaa">热门搜索</h6>
+          </li>
+          <li>
+            <a href="/list.html?keyword=台钓">台钓</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=野钓">野钓</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=龙纹鲤">龙纹鲤</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=大物师">大物师</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=谷麦">谷麦</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=蓝鲫">蓝鲫</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=光威">光威</a>
+          </li>
+          <li>
+            <a href="/list.html?keyword=戴家">戴家</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--轮播主体内容-->
+    <div class="header_main">
+      <div class="header_banner">
+        <div class="header_main_left">
+          <ul>
+            <li>
+              <a href="#" class="header_main_left_a" ctg-data="3"><b>鱼竿</b></a>
+            </li>
+            <li>
+              <a href="#" class="header_main_left_a" ctg-data="1"><b>图书</b></a>
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a" ctg-data="2"><b>鱼线</b></a>
+
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a" ctg-data="4"><b>鱼钩</b></a>
+
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a" ctg-data="5"><b>鱼漂</b></a>
+
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a"  ctg-data="6"><b>鱼轮</b></a>
+
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a"  ctg-data="8"><b>配件</b></a>
+
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a"  ctg-data="7"><b>鱼饵</b></a>
+
+            </li>
+            <li class="header_li2">
+              <a href="#" class="header_main_left_a"  ctg-data="9"><b>其他</b></a>
+
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="header_main_center">
+          <div class="swiper-container swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"><img class="lunbo" src="/indexs/img/lunbo4.jpg" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="/item/124"><img class="lunbo" src="/indexs/img/lunbo1.jpg" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="/item/142"><img class="lunbo" src="/indexs/img/lunbo2.jpg" /></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+          </div>
+          <div class="header_main_center_b">
+            <a href="#特价新品"><img class="sortNav" src="/indexs/img/bottom3.png" /></a>
+            <a href="#热卖商品"><img class="sortNav" src="/indexs/img/bottom4.png" /></a>
+            <a href="#休闲湖钓"><img class="sortNav" src="/indexs/img/bottom_2.png" /></a>
+            <a href="#台钓竞技"><img class="sortNav" src="/indexs/img/bottom_1.png" /></a>
+          </div>
+        </div>
+        <div class="header_main_right">
+          <div class="header_main_right_user" th:if="${username} eq null">
+            <div class="user_info">
+              <div class="user_info_tou">
+                <a href="http://123.56.175.117:8080/user/center"><img class="" src="/indexs/img/user.png"></a>
+              </div>
+              <div class="user_info_show">
+                <p class="">Hi, 欢迎来到!</p>
+                <p>
+                  <a th:if="${username} eq null" href="http://123.56.175.117:8080/user/login">登录注册</a>
+                  <a th:if="${username} ne null" href="http://123.56.175.117:8080/user/center" th:text="'你好，'+${username}"></a>
+                </p>
+              </div>
+            </div>
+            <div class="user_info_hide">
+            </div>
+          </div>
+          <div class="header_main_right_new">
+            <div class="header_new">
+              <div class="header_new_t">
+                <p class="active">
+                  <a href="#">促销</a>
+                </p>
+                <p>
+                  <a href="#">公告</a>
+                </p>
+                <a href="#">更多</a>
+              </div>
+              <div class="header_new_connter">
+                <div class="header_new_connter_1">
+                  <ul>
+                    <li>
+                      <a href="#"><h5 style="color: red;">个人开发学习作品,</h5></a>
+                    </li>
+                    <li>
+                      <a href="#"><h5 style="color: red;">非实际运营电商网站</h5></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header_new_connter_1" style="display: none;">
+                  <ul>
+                    <li>
+                      <a href="#"><h5 style="color: red;">个人开发学习作品，</h5></a>
+                    </li>
+                    <li>
+                      <a href="#"><h5 style="color: red;">非实际运营电商网站</h5></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+ <div class="section_second">
+   <!--推荐品牌-->
+   <div class="row" style="margin: 50px auto">
+     <div class="col-sm-4 col-md-2 brand-item" th:each="brand:${brands}">
+       <a th:href="'/list.html?keyword='+${brand.name}" class="thumbnail">
+         <img th:src="'/img/brand/'+${brand.logo}" style="height: 90px"/>
+       </a>
+     </div>
+   </div>
+
+    <!--特价新品-->
+      <div class="panel panel-info"  th:each="indexSku:${indexSkus}" th:id="${indexSku.name}">
+        <div class="panel-heading">
+         <a href="/list.html?keyword=鱼竿"> <h2 class="panel-title" th:text="${indexSku.name}+'    >>'">特价新品</h2></a>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="thumbnail col-sm-2 col-md-2 col-xs-4 sku-item" th:each="skuItem:${indexSku.skuInfos}" onmouseover="onmouseEvt(this)" onmouseout="onmouseOutEvt(this)">
+              <a th:href="'/item/'+${skuItem.id}">
+                <img class="col-md-12 col-sm-12 col-lg-12 col-xs-12" th:src="${skuItem.skuDefaultImg}">
+                <div class="caption">
+                  <p th:text="${skuItem.skuName}">商品名称</p>
+                  <p class="text-muted" th:text="${skuItem.skuDesc}"></p>
+                  <p class="text-danger" th:text="'￥'+${skuItem.price}"></p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--特价新品结束-->
+
+    </div>
+
+
+ 
+</body>
+<script type="text/javascript">
+
+  function search() {
+      var keyword=$("#searchText").val();
+      if (keyword==""||keyword==" "){
+        alert("请输入搜索关键字");
+      }else{
+        window.location.href="/list.html?keyword="+keyword;
+      }
+  }
+
+  function onmouseEvt(e) {
+    if(!e.classList.contains('sku-chooseed')){
+      e.classList.add('sku-chooseed');
+    }
+   }
+
+  function onmouseOutEvt(e) {
+     e.classList.remove("sku-chooseed");
+   }
+
+</script>
+<script src="/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="/indexs/js/text.js"></script>
+<script type="text/javascript" src="/indexs/js/header.js"></script>
+<script type="text/javascript" src="/indexs/js/secend.js"></script>
+<script type="text/javascript" src="/indexs/js/zz.js"></script>
+<script type="text/javascript" src="/indexs/js/index.js"></script>
+<script type="text/javascript" src="/indexs/js/left,top.js"></script>
+<script type="text/javascript" src="/indexs/js/catalogLoader.js"></script>
+</html>

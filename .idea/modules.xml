@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gd-api/gd-api.iml" filepath="$PROJECT_DIR$/gd-api/gd-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-commodity-service/gd-commodity-service.iml" filepath="$PROJECT_DIR$/gd-commodity-service/gd-commodity-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-commodity-web/gd-commodity-web.iml" filepath="$PROJECT_DIR$/gd-commodity-web/gd-commodity-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-common-util/gd-common-util.iml" filepath="$PROJECT_DIR$/gd-common-util/gd-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-order_pay/gd-order_pay.iml" filepath="$PROJECT_DIR$/gd-order_pay/gd-order_pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-parent/gd-parent.iml" filepath="$PROJECT_DIR$/gd-parent/gd-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-service-util/gd-service-util.iml" filepath="$PROJECT_DIR$/gd-service-util/gd-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gd-user-service/gd-user-service.iml" filepath="$PROJECT_DIR$/gd-user-service/gd-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graduate_design.iml" filepath="$PROJECT_DIR$/graduate_design.iml" />
+    </modules>
+  </component>
+</project>

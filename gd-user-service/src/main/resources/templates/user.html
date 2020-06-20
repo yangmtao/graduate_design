@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>用户中心</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap3.3.7.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/dashboard.css" rel="stylesheet">
+
+    <style>
+        .order-item{
+            border: none;
+        }
+        .order-operate{
+            font-size: 10px;
+        }
+        .order-operate button{
+            margin-top: 10px;
+        }
+    </style>
+
+    <script src="/js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://123.56.175.117:8081/index">渔具阁</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://123.56.175.117:8081/index">主页</a></li>
+                <li><a href="http://123.56.175.117:8081/cartList">购物车</a></li>
+                <li><a href="/user/login">退出登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar" >
+                <li th:class="${case}=='user_info'? 'active':''"><a href="/user/center">基本信息<span class="sr-only">(current)</span></a></li>
+                <li th:class="${case}=='receive_address'? 'active':''" th:classappend="${case}=='address_add_page'? 'active':''"><a href="/user/receiveAddress">收货地址</a></li>
+                <li th:class="${case}=='order'? 'active':''" th:classappend="${case}=='order_add_comment'? 'active':''"><a href="/user/order/all">历史订单</a></li>
+                <li th:class="${case}=='comment'? 'active':''"><a href="/user/comment/all">我的评论</a></li>
+                <li th:class="${case}=='password'? 'active':''"><a href="/user/password">重置密码</a></li>
+            </ul>
+        </div>
+
+        <div th:switch="${case}">
+            <div th:case="user_info">
+                <div th:replace="user_fragment :: user_fragment"></div>
+            </div>
+            <div th:case="user_modify">
+                <div th:replace="user_fragment :: user_modify"></div>
+            </div>
+            <div th:case="receive_address">
+                <div th:replace="user_fragment :: receive_address"></div>
+            </div>
+            <div th:case="address_add_page">
+                <div th:replace="user_fragment :: address_add_page"></div>
+            </div>
+            <div th:case="password">
+                <div th:replace="user_fragment :: password"></div>
+            </div>
+            <div th:case="order">
+                <div th:replace="user_fragment :: order_fragment"></div>
+            </div>
+            <div th:case="order_add_comment">
+                <div th:replace="user_fragment :: order_comment_fragment"></div>
+            </div>
+            <div th:case="comment">
+                <div th:replace="user_fragment :: user_comment_fragment"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function sendComment() {
+       var score=$("#commentScore").val();
+       if(score < 1||score>5){
+           alert("请输入正确的评论分值");
+           return;
+       }
+       var content=$("#commentContent").val();
+       if(content==""||content.length>50){
+           alert("请输入正确的评价内容，5~50个字");
+           return;
+       }
+       $("#addCommnetForm").submit();
+    }
+</script>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/js/jquery.1.12.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.1.12.4.min.js"><\/script>')</script>
+<script src="/js/bootstrap3.3.7.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="/js/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

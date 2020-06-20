@@ -1,0 +1,172 @@
+{
+  "1": [
+    {
+      "catalog1Id": "1",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "2": [
+    {
+      "catalog1Id": "2",
+      "id": "2",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "3": [
+    {
+      "catalog1Id": "3",
+      "id": "5",
+      "name": "手竿",
+      "catalog3List": [
+        {
+          "catalog2Id": "5",
+          "id": "68",
+          "name": "短节竿"
+        },
+        {
+          "catalog2Id": "5",
+          "id": "69",
+          "name": "溪流竿"
+        },
+        {
+          "catalog2Id": "5",
+          "id": "70",
+          "name": "长抛竿"
+        }
+      ]
+    },
+    {
+      "catalog1Id": "3",
+      "id": "6",
+      "name": "台钓竿",
+      "catalog3List": [
+        {
+          "catalog2Id": "6",
+          "id": "71",
+          "name": "鲫鱼竿"
+        },
+        {
+          "catalog2Id": "6",
+          "id": "72",
+          "name": "鲤鱼竿"
+        },
+        {
+          "catalog2Id": "6",
+          "id": "73",
+          "name": "综合竿"
+        },
+        {
+          "catalog2Id": "6",
+          "id": "74",
+          "name": "鲟鱼竿"
+        }
+      ]
+    },
+    {
+      "catalog1Id": "3",
+      "id": "7",
+      "name": "海竿",
+      "catalog3List": [
+        {
+          "catalog2Id": "7",
+          "id": "75",
+          "name": "小海竿"
+        },
+        {
+          "catalog2Id": "7",
+          "id": "76",
+          "name": "远抛竿"
+        }
+      ]
+    },
+    {
+      "catalog1Id": "3",
+      "id": "8",
+      "name": "其他",
+      "catalog3List": [
+        {
+          "catalog2Id": "8",
+          "id": "77",
+          "name": "矶钓竿"
+        },
+        {
+          "catalog2Id": "8",
+          "id": "78",
+          "name": "路亚竿"
+        },
+        {
+          "catalog2Id": "8",
+          "id": "79",
+          "name": "筏钓竿"
+        }
+      ]
+    }
+  ],
+  "4": [
+    {
+      "catalog1Id": "4",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "5": [
+    {
+      "catalog1Id": "5",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "6": [
+    {
+      "catalog1Id": "6",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "7": [
+    {
+      "catalog1Id": "7",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "8": [
+    {
+      "catalog1Id": "8",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ],
+  "9": [
+    {
+      "catalog1Id": "9",
+      "id": "1",
+      "name": "暂无商品",
+      "catalog3List": [
+
+      ]
+    }
+  ]
+}

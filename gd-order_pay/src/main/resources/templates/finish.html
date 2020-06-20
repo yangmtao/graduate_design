@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/swiper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/success.css" />
+    <style>
+        .nav-tabs-justified{
+            margin: 0 auto;
+        }
+        .nav_top_two{
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+<!--头部-->
+<div class="alert-info">
+    <div class="hd_wrap_top">
+        <ul class="hd_wrap_left">
+            <li class="hd_home"><i class="glyphicon glyphicon-home"></i>
+                <a href="/index">首页</a>
+            </li>
+        </ul>
+
+        <ul class="hd_wrap_right">
+            <li class="forel">
+                <a href="http://123.56.175.117:8080/user/center" class="link_login" th:text="'欢迎! '+${nickName}"></a>&nbsp;
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="nav-tabs-justified">
+    <div class="nav_wrap">
+
+        <div class="nav_top">
+            <div class="nav_top_one">
+                <a href="/#"><img src="/img/yjg_logo.png"  style="height: 60px;width:180px;"  /></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="main">
+
+    <div class="success-wrap">
+        <div class="w" id="result">
+            <div class="m succeed-box">
+                <div class="mc success-cont">
+                    <div class="success-lcol">
+                        <div class="success-top"><b class="succ-icon"></b>
+                            <h3 class="ftx-02">支付成功</h3></div>
+                        <div class="p-item">
+                            <div class="p-info">
+                                <div class="p-name">
+                                    <p  th:text="'支付金额：'+${totalAmount}" style="color: red" ></p>
+                                </div>
+                                <div class="p-extra"> <span class="txt" th:text="'交易编号：'+${tradeNo}" ></span></div>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                    <div class="success-btns success-btns-new">
+                        <div class="success-ad">
+                            <a href="/#none"></a>
+                        </div>
+                        <div class="clr"></div>
+                        <div class="bg_shop">
+                            <a class="btn-addtocart"  href="http://123.56.175.117:8081/index" id="GotoShoppingCart"><b></b>返回首页</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript" src="/js/success.js"></script>
+
+</html>

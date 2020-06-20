@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="utf-8" />
+		<script src="/js/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/JD2.css" />
+		<title>交易失败</title>
+	</head>
+
+	<body>
+		<!--顶部-->
+		<header>
+			<div class="header">
+				<ul class="header-left">
+					<li>
+						<img src="/img/header_1.png"/>
+						<a href="http://123.56.175.117:8081/index">首页</a>
+					</li>
+				</ul>
+				<ul class="header-right">
+					<li th:text="'你好，'+${nickName}"> </li>
+				</ul>
+				<div style="clear: both;"></div>
+			</div>
+
+		</header>
+
+		<!--logo图片-->
+		<div class="top-1">
+			<img src="/img/yjg_logo.png" class="img1" /><span>下单失败</span>
+			<!--右侧绿色-->
+			<img src="/img/08.png" class="img2" />
+		</div>
+
+		<!--主体部分-->
+		<p class="p1" >可能是如下原因：</p>
+		<div class="section" style="height: 200px">
+			<div class="top-2">
+				<span   th:text="${errMsg}"> </span>
+			</div>
+		</div><!--********************************************************************************************-->
+	</body>
+
+</html>
